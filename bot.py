@@ -15,6 +15,7 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
+
 # Чтение конфигурации из файла config.ini
 config = configparser.ConfigParser()
 config.read('config.ini')
